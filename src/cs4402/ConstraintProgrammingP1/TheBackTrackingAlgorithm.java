@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * This Class contains the Forward Checking Algorithm. 
  *  
- * @author 110021201
+ * @author blessinvarkey
  * */
 public class TheBackTrackingAlgorithm 
 {
