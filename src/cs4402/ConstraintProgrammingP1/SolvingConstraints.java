@@ -2,7 +2,7 @@ package cs4402.ConstraintProgrammingP1;
 
 /**
  * This is the solving Constraints Class. 
- * @author 110021201  
+ * @author blessinvarkey  
  * */
 
 
