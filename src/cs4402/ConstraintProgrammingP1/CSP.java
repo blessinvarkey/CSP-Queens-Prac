@@ -6,9 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 /** * ********************************************************************************************************************************
- * This is the Constraint Satisfaction Problem Class. 
- * The class contains the OrderType,   
- * @author 110021201
+ CSP class
+ @author blessinvarkey
  * * * ********************************************************************************************************************************/
 public class CSP {
 	public List<Domain> Domainvariable;
@@ -76,9 +75,6 @@ public class CSP {
 		return OrderType.DEFAULT;
 	}
 	
-	/** * ********************************************************************************************************************************
-	Calling Constraints 	 
-	/** * ********************************************************************************************************************************/
 
 	public SolvingConstraints getConstraint(int dir1, int dir2) {
 		for (SolvingConstraints constraint : this.constraints) {
